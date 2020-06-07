@@ -1,4 +1,4 @@
-# gRPC-Streamer
+# gRPC Python Server to Node Client
 
 gRPC server is written in Python and client is written in NodeJS
 
