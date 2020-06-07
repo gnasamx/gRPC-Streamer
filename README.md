@@ -6,7 +6,7 @@ gRPC server is written in Python and client is written in NodeJS
 
 ## Setup
 
-Install python requirements
+Install python and node requirements
 ```(cmd)
 $ pip install -r requirements.txt
 ```
