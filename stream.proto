@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+// The greeting service definition.
+service Stream {
+  // Sends a greeting
+  rpc Detection (StreamRequest) returns (stream StreamFrame) {}
+}
+
+// The request message containing the image.
+message StreamFrame {
+  bytes frame = 1;
+}
+
+// The response message containing the reply
+message StreamRequest {
+  int32 request = 1;
+}
